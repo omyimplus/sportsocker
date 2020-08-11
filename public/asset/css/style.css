@@ -1,8 +1,37 @@
 /* ===================== header ===================== */
 body {
   font-family: "Kanit", sans-serif !important;
-  font-weight: 300;
-  background-color: #000; }
+  font-weight: 400;
+  background-color: #000;
+  color: #fff;
+  background: url("../../images/bg.jpg");
+  background-size: cover; }
+
+header {
+  padding-top: 10px; }
+  header .logo {
+    height: 90px; }
+  header .loginBtn a {
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px; }
+  header .loginBtn img {
+    height: 35px; }
+  header .navMain li {
+    padding: 0 15px; }
+  header .navMain a {
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 3px; }
+    header .navMain a.active {
+      border-bottom: 2px solid #20730c; }
+  header .socialBtn img {
+    height: 30px;
+    margin-left: 5px; }
 
 /* ===================== class ===================== */
 /* ===================== Responsive ===================== */
